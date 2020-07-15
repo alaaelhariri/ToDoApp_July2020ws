@@ -1,0 +1,19 @@
+<div *ngFor="let task of todos">
+    <div>
+        {{task.completed ? 'Complete' : 'Incomplete'}} ({{task.createdAt | date: 'yyyy-MM-dd HH:mm:ss'}})
+    </div>
+    <div>
+        {{task.description}}
+    </div>
+    <button (click)="task.completed = !task.completed">Toggle Status</button>
+    <br>
+    <br>
+</div>
+
+<div>
+    <input type="text" [formControl]="newToDo" placeholder="Add a new task."/>
+    <button (click)="addNewToDo()">Add</button>
+</div>
+
+<br>
+<a routerLink="/">Home</a>
