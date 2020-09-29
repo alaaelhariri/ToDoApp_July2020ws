@@ -1,5 +1,10 @@
 # ToDoApp
 
+This project was used to run a workshop with GDG Coast Lebanon, GDG Jeddah and DSC AUB on July 18th 2020.
+
+[The workshop video is available on Youtube](https://www.youtube.com/watch?v=ykKbyVyOxUA)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
 ## Development server
